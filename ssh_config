@@ -1,0 +1,11 @@
+Host gitlab
+	HostName gitlab.com
+	User git
+	IdentityFile ~/.ssh/id_rsa
+
+Host caen
+	HostName login.engin.umich.edu
+	User parkro
+	Compression yes
+	IdentityFile ~/.ssh/id_rsa
+
